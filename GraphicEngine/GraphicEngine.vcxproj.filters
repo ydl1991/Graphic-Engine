@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ResourceLoader">
+      <UniqueIdentifier>{ad77b752-62a1-491c-bf60-4c03994def32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{4ae7a290-9c21-416d-b3e7-d82e2df77c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{0209932a-8bfe-45c8-876f-9b58b86debf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{c16608bc-4cf6-4fdd-a207-ae891e700418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Cube">
+      <UniqueIdentifier>{5dcb3e04-6e4e-40e3-a2ce-ce803efc0647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Square">
+      <UniqueIdentifier>{e1038620-2033-4ad9-8c21-3da9fc110b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{a69698e8-5350-4a89-b325-aebe21a69417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{f25c7fcc-b8a1-4920-90f6-0cc75845671d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\ResourceLoader\GraphicsFileLoader.cpp">
+      <Filter>Source Files\ResourceLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Camera\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Framework\Framework.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Framework\FrameworkGLFW.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Framework\FrameworkSDL.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Framework\FrameworkSFML.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Object\GraphicObject.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Object\GeometricShapes\Cube.cpp">
+      <Filter>Source Files\Object\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Object\GeometricShapes\Square.cpp">
+      <Filter>Source Files\Object\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Components\FloatingComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Components\SpinningComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Source\Components\SatelliteComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Source\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\ResourceLoader\GraphicsData.h">
+      <Filter>Source Files\ResourceLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\ResourceLoader\GraphicsFileLoader.h">
+      <Filter>Source Files\ResourceLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Camera\Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Framework\Framework.h">
+      <Filter>Source Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Object\GraphicObject.h">
+      <Filter>Source Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Object\GeometricShapes\Cube.h">
+      <Filter>Source Files\Object\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Object\GeometricShapes\Square.h">
+      <Filter>Source Files\Object\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Interfaces\IComponent.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Components\FloatingComponent.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Components\SpinningComponent.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Source\Components\SatelliteComponent.h">
+      <Filter>Source Files\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <GLSLShader Include="Shaders\simple.frag.glsl">
+      <Filter>Source Files</Filter>
+    </GLSLShader>
+    <GLSLShader Include="Shaders\simple.vert.glsl">
+      <Filter>Source Files</Filter>
+    </GLSLShader>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SDL2-2.0.12\lib\x64\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SDL2-2.0.12\lib\x64\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SDL2-2.0.12\lib\x64\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SDL2-2.0.12\lib\x64\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+    <CopyFileToFolders Include="$(MSBuildThisFileDirectory)SFML-2.5.1\bin\*.dll" />
+  </ItemGroup>
+</Project>
